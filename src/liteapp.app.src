@@ -1,0 +1,12 @@
+{application, liteapp,
+ [
+  {description, ""},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { liteapp_app, []}},
+  {env, [{root, "/home/alex/workspace_erlang/genapp/www"}, {db_root, "/home/alex/tmp/"}]}
+ ]}.
